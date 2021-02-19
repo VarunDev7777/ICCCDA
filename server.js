@@ -1,9 +1,13 @@
 const express = require("express");
 const app = express();
 
+//Environment Variables
+require("dotenv").config();
+const MONGO_URI = process.env.URI;
+
 //Connecting MongoDB
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/icccda", {
+mongoose.connect(MONGO_URI, {
   useNewUrlParser: !0,
   useUnifiedTopology: !0,
   useCreateIndex: 1,
@@ -12,9 +16,6 @@ mongoose.connect("mongodb://localhost:27017/icccda", {
 //View Engine & Static File Routing
 app.set("view engine", "ejs");
 app.use("/assets", express.static("assets"));
-
-//Environment Variables
-require("dotenv").config();
 
 //Parsing Body
 app.use(express.json());
