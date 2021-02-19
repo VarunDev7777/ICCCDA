@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("/assets/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Regular.woff2");
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("/assets/fonts/SourceSansPro-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SourceSansPro-Black";
+  src: url("/assets/fonts/SourceSansPro-Black.ttf");
+}
+.registration_container {
+  min-height: 80vh;
+  padding: 8rem 0 4rem 0;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 575px) {
+  .registration_container {
+    padding: 2rem 0;
+    width: 100%;
+  }
+}
+
+.registration_details {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem 2rem 3rem 2rem;
+  box-sizing: border-box;
+}
+.registration_details .Note {
+  margin: 1rem 0 0 0;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1rem;
+  width: max-content;
+}
+@media (max-width: 575px) {
+  .registration_details .Note {
+    width: auto;
+  }
+}
+.registration_details p {
+  margin: 1rem 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+@media (max-width: 575px) {
+  .registration_details p {
+    line-height: 1.4rem;
+  }
+}
+.registration_details .author_reg_fees {
+  list-style: decimal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+.registration_details .bank_details_icdam {
+  margin: 0 auto;
+  border: 5px solid #005499;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.registration_details .bank_details_icdam h3 {
+  width: max-content;
+  margin: 2rem auto 1rem auto;
+}
+.registration_details .bank_details_icdam .bank_detaillist {
+  padding: 0;
+  list-style: none;
+  width: 90%;
+  margin: 0 auto 4rem auto;
+  border: 3px solid #e1e1e1;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.registration_details .bank_details_icdam .bank_detaillist li {
+  display: flex;
+  border-bottom: 3px solid #e1e1e1;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.registration_details .bank_details_icdam .bank_detaillist li:last-child {
+  border-bottom: none;
+}
+.registration_details .bank_details_icdam .bank_detaillist li div {
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+@media (max-width: 575px) {
+  .registration_details .bank_details_icdam .bank_detaillist li div {
+    padding: 0.5rem;
+  }
+}
+.registration_details .bank_details_icdam .bank_detaillist li .detail_name {
+  font-weight: bold;
+  color: #005499;
+  border-right: 3px solid #e1e1e1;
+  width: 50%;
+}
+.registration_details .bank_details_icdam .bank_detaillist li:hover {
+  background-color: #e1e1e140;
+}
+@media (max-width: 575px) {
+  .registration_details .bank_details_icdam .bank_detaillist li {
+    flex-direction: column;
+  }
+  .registration_details .bank_details_icdam .bank_detaillist li .detail_name {
+    border-right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .registration_details .bank_details_icdam .bank_detaillist {
+    margin: 1rem auto;
+  }
+}
+@media (max-width: 575px) {
+  .registration_details .bank_details_icdam {
+    border-width: 1px;
+  }
+}
+@media (max-width: 575px) {
+  .registration_details {
+    padding: 1rem;
+    border-radius: 0;
+  }
+}
+
+.head_center {
+  width: max-content;
+  margin: 2rem auto;
+}
+@media (max-width: 575px) {
+  .head_center {
+    font-size: 1.4rem;
+    width: auto;
+  }
+}
+
+.fee_structure .fee_struc_table {
+  margin: 0 auto;
+  border: 5px solid #005499;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+}
+.fee_structure .fee_struc_table ul {
+  padding: 0;
+  margin: 4rem auto;
+  list-style: none;
+  width: 90%;
+  border: 3px solid #e1e1e1;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.fee_structure .fee_struc_table ul li {
+  display: flex;
+  border-bottom: 3px solid #e1e1e1;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.fee_structure .fee_struc_table ul li:last-child {
+  border-bottom: none;
+}
+.fee_structure .fee_struc_table ul li div {
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+.fee_structure .fee_struc_table ul li .fee_category,
+.fee_structure .fee_struc_table ul li .early_reg_fee {
+  border-right: 3px solid #e1e1e1;
+  width: 33%;
+}
+@media (max-width: 575px) {
+  .fee_structure .fee_struc_table ul li .fee_category,
+.fee_structure .fee_struc_table ul li .early_reg_fee {
+    border-right: none;
+    width: 100%;
+  }
+}
+.fee_structure .fee_struc_table ul li .table_heading {
+  font-weight: bold;
+}
+.fee_structure .fee_struc_table ul li:hover {
+  background-color: #e1e1e140;
+}
+@media (max-width: 575px) {
+  .fee_structure .fee_struc_table ul li:first-child div:first-child {
+    display: none;
+  }
+  .fee_structure .fee_struc_table ul li div {
+    position: relative;
+  }
+  .fee_structure .fee_struc_table ul li div:nth-child(1)::after {
+    content: "Category";
+  }
+  .fee_structure .fee_struc_table ul li div:nth-child(2)::after {
+    content: "(Early Reg.)";
+  }
+  .fee_structure .fee_struc_table ul li div:nth-child(3)::after {
+    content: "(Late Reg.)";
+  }
+  .fee_structure .fee_struc_table ul li div::after {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto;
+    font-size: 1rem;
+    color: #707070;
+  }
+}
+@media (max-width: 575px) {
+  .fee_structure .fee_struc_table {
+    border-width: 1px;
+  }
+  .fee_structure .fee_struc_table ul li {
+    flex-direction: column;
+  }
+}
+
+.ml6 {
+  width: max-content;
+  margin: 2rem auto 0 auto;
+  color: #005499;
+  position: relative;
+  font-size: 2em;
+  font-family: "Raleway-Regular";
+}
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml6 .letter {
+  line-height: 1em;
+  display: inline-block;
+}
+@media (max-width: 575px) {
+  .ml6 {
+    width: auto;
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=registration.css.map */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>ICDAM | International Conference on Data Analytics and Management</title>
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="icon" href="/assets/images/gurunanak.png">
+</head>
+<body>
+    <%- include("./Components/loader.ejs") %>
+    <%- include("./Components/header.ejs") %>
+    <%- include("./Components/sidebar.ejs") %>
+    <div class="about_component">
+        <h1 class="about_headline">About</h1>
+        <div class="about_toggle">
+            <div class="about_uni activeitem" onclick="changeabout(1)">Jan Wyzykowski University</div>
+            <div class="about_uni" onclick="changeabout(2)">PIET University</div>
+            <div class="about_uni" onclick="changeabout(3)">Universal Innovators</div>
+            <div class="about_uni" onclick="changeabout(4)">IISU Jaipur</div>
+        </div>
+        <div class="about_JanWyzykowski activeabitem">
+            Jan Wyżykowski University was created due to the cooperation of Polkowice Commune and Polkowice County. The founder of the University is the ZAMPOL company, which Polkowice Commune and Polkowice County own all the shares of. On 30th August 2001, the Founder received the permit to establish non-state high vocational school from the Minister of National Education and Sport.
+            On 8 January 2002 following the decision of the Minister of National Education and Sport, The Lower Silesian University of Entrepreneurship and Technology in Polkowice was registered as the Non-state high vocational schools at number 91, in the register kept by the Minister of National Education and Sport (currently Minister of Education and Science) Polkowice is the seat of the University, district town, located in the Lower Silesia Voivodship. in Polkowice, there is a sub-zone Legnica Special Economic Zone – quite a few international companies are located in the zone (Volkswagen, Sanden, Sitech, CCC etc.) DWSPIT develops the cooperation with the business sector and within the University Council DWSPiT tightly adjusts its educational offer to the labour market needs.
+            Of 1st of January 2016, following the consent issued by the Minister of Science and Higher Education the Lower Silesian University of Entrepreneurship and Technology in Polkowice merged with the Copper Basin High Vocational College in Lubin.
+            As a result of the merger at the second decision issued by the Minister of Science and Higher Education, our University received also the name: Jan Wyżykowski University.
+        </div>
+        <div class="about_uniinov inactiveabitem">
+            Every success story begins with a vision. The Universal 
+            Innovators (UI) is a private and autonomous body promoting 
+            research based activities all over the world. The UI aims
+            to do non-profit collaborative research in the field of
+            engineering, applied sciences and management. We aim to 
+            be the leading independent academic and professional body
+            working in collaboration with academicians, faculties, 
+            students, researchers and educational institutes. This 
+            leads us to be playing a creative and critical role in 
+            the society by disseminating teaching and research on a 
+            global scale, the cornerstones of which are good, long-term
+            relationships, a focus on real life applications necessary 
+            for the welfare of the mankind, and an ability to combine 
+            quality and innovation. The mission of Universal Innovators 
+            is to cultivate and carry out research in high- tech 
+            methodologies. We deal in conducting FDP’s, workshops, 
+            seminars, and conferences. As a recognized body, Universal 
+            Innovators (UI) seeks to facilitate the availability of 
+            academic excellence and disseminate innovative knowledge 
+            worldwide.
+        </div>
+        <div class="about_pietuni inactiveabitem">
+            Panipat Institute of Engineering and Technology (PIET) was established by the Vidhya Peeth Education trust in the year 2006. It was the time when state and NCR was striving of producing World Class technocrats and Managers. PIET was Self Financed Initiative by a Private Management which always had an eye on quality of technical education.
+            The great philosophy of PIET management has created an edifice that is strengthening its foundation, which can only rise higher and higher. Quality and Integrity is the essence for achieving Excellence at PIET. Members of Executive Academic Advisory Board being eminent personalities and philanthropists which have been successful in their endeavors set out with a common desire to design to serve the community through value based education.
+            When we look at some option of best engineering Institute in National Capital Region, PIET stands out of a clear leader. A Multidisciplinary institute affiliated to kurukshetra university, Kurukshetra approved by AICTE, New Delhi provides Undergraduate programs in Engineering and Management. PIET has consistently pushed the war of excellence to garner riche for itself among the Ten Engineering institute in Delhi/NCR in the field of Engineering Education.
+            It has focus on its goal of producing Entrepreneurs, world class Manager and technocrats employable throughout the globe. The institute has one of the largest student populations among engineering colleges of NCR. PIET is the most preferred destination for the students from across the country which could be attributed to the quality of education, infrastructure, healthy teaching Learning practices as well as producing industry ready students.
+            PIET is a family of aspiring students supportive parents, committed faculty and visionary Management who all are working together to make a difference in education field.
+        </div>
+        <div class="about_iisdtbu inactiveabitem">
+            IIS (Deemed to be University), Jaipur (India) is among the pioneers in the state of Rajasthan in imparting quality education to women in different streams.  It is known for excellence in delivering value-based education to students and encourages them to think innovatively. It particularly focuses on preparing students to become world-ready citizens, who are equipped to take any professional and social challenges with an educated and empowered mind. 
+            The University is an exceptionally cosmopolitan and vibrant one based in one of the country’s most exciting and ethnically rich cities - the Pink City (Jaipur) and is placed in the category ‘A’ by the Ministry of Human Resource Development, Government of India. With over 5500 students, the University offers UG, PG and Doctoral programmes in Arts, Science, Social Sciences, Commerce, Management and Computer Science & IT.
+            Our vision includes striving and seeking to cater to global educational needs combined with our goal of promoting international understanding and world fellowship through world class education. To accomplish the same, we are open to all kinds of collaborations, by partnering with foreign universities and research based institutes.
+        </div>
+    </div>
+    <%- include("./Components/footer.ejs") %>
+    <script src="/assets/scripts/operations.js"></script>
+</body>
+</html>
