@@ -11,6 +11,8 @@ mongoose.connect(MONGO_URI, {
   useNewUrlParser: !0,
   useUnifiedTopology: !0,
   useCreateIndex: 1,
+}).then(() => {
+  console.log("mongoose connected")
 });
 
 //View Engine & Static File Routing

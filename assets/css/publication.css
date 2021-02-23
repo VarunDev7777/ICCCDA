@@ -20,6 +20,7 @@
   min-height: 80vh;
   width: max-content;
   max-width: 80%;
+  min-width: 80%;
   margin: 0 auto;
   padding: 8rem 0 0 0;
   box-sizing: border-box;
