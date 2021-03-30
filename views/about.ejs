@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-    <title>ICCCDA | International Conference on Communication, Computation and Data Analytics</title>
+    <title>ICCCN | International Conference on Computing and Communication Networks</title>
     <link rel="stylesheet" href="/assets/css/about.css">
     <link rel="stylesheet" href="/assets/css/common.css">
     <link rel="stylesheet" href="/assets/css/header.css">
@@ -12,53 +13,66 @@
     <link rel="stylesheet" href="/assets/css/sidebar.css">
     <link rel="icon" href="/assets/images/gurunanak.png">
 </head>
+
 <body>
     <%- include("./Components/loader.ejs") %>
-    <%- include("./Components/header.ejs") %>
-    <%- include("./Components/sidebar.ejs") %>
-    <div class="about_component">
-        <h1 class="about_headline">About</h1>
-        <div class="about_toggle">
-            <div class="about_uni activeitem" onclick="changeabout(1)">Suleyman Demirel University</div>
-            <div class="about_uni" onclick="changeabout(2)">Isparta Applied Sciences University</div>
-            <div class="about_uni" onclick="changeabout(3)">Universal Innovators</div>
-            <!-- <div class="about_uni" onclick="changeabout(4)">IISU Jaipur</div> -->
-        </div>
-        <div class="about_JanWyzykowski activeabitem">
-            Suleyman Demirel University
-        </div>
-        <div class="about_uniinov inactiveabitem">
-            Every success story begins with a vision. The Universal 
-            Innovators (UI) is a private and autonomous body promoting 
-            research based activities all over the world. The UI aims
-            to do non-profit collaborative research in the field of
-            engineering, applied sciences and management. We aim to 
-            be the leading independent academic and professional body
-            working in collaboration with academicians, faculties, 
-            students, researchers and educational institutes. This 
-            leads us to be playing a creative and critical role in 
-            the society by disseminating teaching and research on a 
-            global scale, the cornerstones of which are good, long-term
-            relationships, a focus on real life applications necessary 
-            for the welfare of the mankind, and an ability to combine 
-            quality and innovation. The mission of Universal Innovators 
-            is to cultivate and carry out research in high- tech 
-            methodologies. We deal in conducting FDP’s, workshops, 
-            seminars, and conferences. As a recognized body, Universal 
-            Innovators (UI) seeks to facilitate the availability of 
-            academic excellence and disseminate innovative knowledge 
-            worldwide.
-        </div>
-        <div class="about_pietuni inactiveabitem">
-            Isparta Applied Sciences University
-        </div>
-        <div class="about_iisdtbu inactiveabitem">
-            IIS (Deemed to be University), Jaipur (India) is among the pioneers in the state of Rajasthan in imparting quality education to women in different streams.  It is known for excellence in delivering value-based education to students and encourages them to think innovatively. It particularly focuses on preparing students to become world-ready citizens, who are equipped to take any professional and social challenges with an educated and empowered mind. 
-            The University is an exceptionally cosmopolitan and vibrant one based in one of the country’s most exciting and ethnically rich cities - the Pink City (Jaipur) and is placed in the category ‘A’ by the Ministry of Human Resource Development, Government of India. With over 5500 students, the University offers UG, PG and Doctoral programmes in Arts, Science, Social Sciences, Commerce, Management and Computer Science & IT.
-            Our vision includes striving and seeking to cater to global educational needs combined with our goal of promoting international understanding and world fellowship through world class education. To accomplish the same, we are open to all kinds of collaborations, by partnering with foreign universities and research based institutes.
-        </div>
-    </div>
-    <%- include("./Components/footer.ejs") %>
-    <script src="/assets/scripts/operations.js"></script>
+        <%- include("./Components/header.ejs") %>
+            <%- include("./Components/sidebar.ejs") %>
+                <div class="about_component">
+                    <h1 class="about_headline">About</h1>
+                    <div class="about_toggle">
+                        <div class="about_uni activeitem" onclick="changeabout(1)">Suleyman Demirel University</div>
+                        <div class="about_uni" onclick="changeabout(2)">Isparta Applied Sciences University</div>
+                        <div class="about_uni" onclick="changeabout(3)">Universal Innovators</div>
+                        <!-- <div class="about_uni" onclick="changeabout(4)">IISU Jaipur</div> -->
+                    </div>
+                    <div class="about_JanWyzykowski activeabitem">
+                        Suleyman Demirel University
+                    </div>
+                    <div class="about_uniinov inactiveabitem">
+                        Every success story begins with a vision. The Universal
+                        Innovators (UI) is a private and autonomous body promoting
+                        research based activities all over the world. The UI aims
+                        to do non-profit collaborative research in the field of
+                        engineering, applied sciences and management. We aim to
+                        be the leading independent academic and professional body
+                        working in collaboration with academicians, faculties,
+                        students, researchers and educational institutes. This
+                        leads us to be playing a creative and critical role in
+                        the society by disseminating teaching and research on a
+                        global scale, the cornerstones of which are good, long-term
+                        relationships, a focus on real life applications necessary
+                        for the welfare of the mankind, and an ability to combine
+                        quality and innovation. The mission of Universal Innovators
+                        is to cultivate and carry out research in high- tech
+                        methodologies. We deal in conducting FDP’s, workshops,
+                        seminars, and conferences. As a recognized body, Universal
+                        Innovators (UI) seeks to facilitate the availability of
+                        academic excellence and disseminate innovative knowledge
+                        worldwide.
+                    </div>
+                    <div class="about_pietuni inactiveabitem">
+                        Isparta Applied Sciences University
+                    </div>
+                    <div class="about_iisdtbu inactiveabitem">
+                        IIS (Deemed to be University), Jaipur (India) is among the pioneers in the state of Rajasthan in
+                        imparting quality education to women in different streams. It is known for excellence in
+                        delivering value-based education to students and encourages them to think innovatively. It
+                        particularly focuses on preparing students to become world-ready citizens, who are equipped to
+                        take any professional and social challenges with an educated and empowered mind.
+                        The University is an exceptionally cosmopolitan and vibrant one based in one of the country’s
+                        most exciting and ethnically rich cities - the Pink City (Jaipur) and is placed in the category
+                        ‘A’ by the Ministry of Human Resource Development, Government of India. With over 5500 students,
+                        the University offers UG, PG and Doctoral programmes in Arts, Science, Social Sciences,
+                        Commerce, Management and Computer Science & IT.
+                        Our vision includes striving and seeking to cater to global educational needs combined with our
+                        goal of promoting international understanding and world fellowship through world class
+                        education. To accomplish the same, we are open to all kinds of collaborations, by partnering
+                        with foreign universities and research based institutes.
+                    </div>
+                </div>
+                <%- include("./Components/footer.ejs") %>
+                    <script src="/assets/scripts/operations.js"></script>
 </body>
+
 </html>

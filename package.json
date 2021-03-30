@@ -1,5 +1,5 @@
 {
-  "name": "icccda",
+  "name": "icccn",
   "version": "2.0.0",
   "main": "server.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {},
   "keywords": [
     "heroku",
-    "icccda"
+    "icccn"
   ],
   "engines": {
     "node": "12.16.2"
